@@ -30,6 +30,30 @@ Version: 1.0
 
 
 /*--------------------*/
+/* whatsapp */
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:130px;
+	right:15px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+.float:hover {
+	text-decoration: none;
+	color: #25d366;
+  background-color:#fff;
+}
+
+.my-float{
+	margin-top:16px;
+}
 
 body,
 html {
@@ -401,7 +425,10 @@ iframe {
     border-radius: 25px;
     margin-top: 30px;
 }
-
+.mu-book-now-btn:hover{
+    background-color: #37B721;
+    color: white;
+}
 
 /*--------------------*/
 
@@ -618,8 +645,9 @@ iframe {
 }
 
 .mu-featured-tours-single h3 {
-    font-size: 22px;
+    font-size: 1em;
     margin-bottom: 5px;
+    
 }
 
 .mu-featured-tours-single h4 {
@@ -639,6 +667,7 @@ iframe {
 
 .mu-featured-tours-single p {
     font-size: 15px;
+    text-align: justify;
 }
 
 .mu-featured-tours-single-info .mu-book-now-btn {
@@ -851,7 +880,7 @@ iframe {
     display: inline;
     float: left;
     text-align: center;
-    padding: 100px 18%;
+    padding: 10px 18%;
     width: 100%;
 }
 
