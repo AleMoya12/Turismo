@@ -1085,8 +1085,15 @@ iframe {
 
 
 /*--------------------*/
+@media (min-width: 1024px) {
+    img{
+        max-width: 100%;
+        height: 11.875em;
+    }
+}
 
 @media (max-width: 1199px) {
+   
     .mu-about-right {
         margin-top: 20px;
         width: 140%;
@@ -1102,6 +1109,7 @@ iframe {
 }
 
 @media (max-width: 991px) {
+   
     .mu-primary-btn {
         font-size: 14px;
         padding: 12px 22px;
@@ -1153,7 +1161,9 @@ iframe {
     }
 }
 
+
 @media (max-width: 767px) {
+  
     .mu-logo-area {
         width: 100%;
         text-align: center;
